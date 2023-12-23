@@ -1,0 +1,259 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(252, 141, 37, 0.404)
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+ul {
+    list-style-type: none;
+    margin-right: 0;
+    padding-right: 5px;
+    
+    }
+li {
+    float: left;
+}
+
+.logosup {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.logo {
+    font-size: 3vh;
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Kaushan Script', cursive;
+}
+
+a {
+    padding-right: 1vh;
+    font-size: 1em;
+}
+
+.imglogo {
+    width: 7vh;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    color: orange;
+}
+
+.bfm {
+    padding-right: 10px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.inicio {
+    max-width: 100%;
+    height: 100vh; 
+    background: url(./IMG/2.jpg) no-repeat center;
+    background-size: cover;  
+    background-attachment: scroll; 
+    display: flex; 
+    justify-content: center;
+    align-items:end;
+    flex-direction: column;
+}
+
+.princ {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}  
+
+.logoCentral {
+    width: 13vw;
+}
+
+.princ h1 {
+    font-size: 10vw;
+     color: white; 
+    padding-right: 10vw;
+    font-family: 'Caveat', cursive;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Kaushan Script', cursive;
+}
+
+
+h4 {
+    font-size: 2vw;
+    color: orange;
+    padding-right: 17vw;
+    font-family: 'Caveat', cursive;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tituloPag {
+    font-size: 5vh;
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 3vw;
+    font-family: 'Caveat', cursive;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.presentacion {
+    max-width: 100%;
+    height: 60vh; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.foto {
+    border: 2px solid white;
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.firma  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textoPresentacion {
+    font-size: 3vh;
+    padding: 40px;
+    text-align: justify;
+    font-family: 'Caveat', cursive;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.firmaPresentacion {
+    font-size: 6vh;
+    padding-left: 50%;
+    color: orange;
+    font-family: 'Caveat', cursive;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Kaushan Script', cursive;
+
+}
+
+
+.pagwebs {
+    width: 85%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 320px);
+    grid-auto-rows: 180px;
+    justify-content: center;
+}
+
+.galeria {
+    border: 6px solid rgba(252, 141, 37, 0);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact {
+    max-width: 100%;
+    height: 90vh; 
+}
+
+.forms {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 40px;
+}
+
+h3 {
+    font-size: 4vh;
+    font-family: 'Caveat', cursive;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.info {
+    font-size: 3vh;
+    font-family: 'Caveat', cursive;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nombre {
+    width: 40vw;
+    height: 3vh;
+    background-color: rgba(255, 255, 255, 0.733);
+    border: 2px solid white;
+    margin-bottom: 20px;
+}
+
+.consulta {
+    width: 40vw;
+    height: 20vh;
+    background-color: rgba(255, 255, 255, 0.733);
+    border: 2px solid white;
+   
+}
+
+.enviar {
+    margin-top: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 14vh;
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i {
+    font-size: 5vh; 
+    padding-left: 2vh;
+    color: white;
+}
+
+i:hover {
+    color: orange;
+}
+
